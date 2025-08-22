@@ -262,6 +262,7 @@
         });
         const url = URL.createObjectURL(blob);
         const link = document.createElement("a");
+        consloe.log(url,'url--------------------------')
         link.href = url;
         link.download = "file.json"; // 文件名可以根据需要更改
         link.click();
